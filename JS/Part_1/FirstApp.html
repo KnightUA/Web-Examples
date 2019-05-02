@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi, HTML!</title>
+    <script>
+        function countToTen() {
+            var count = 0;
+            while (count < 10) {
+                count++;
+                document.getElementById("idCount").innerHTML += count + "<br>";
+            }
+        }
+    </script>
+</head>
+<body onload="countToTen()">
+    <h1>Let's count to 10 with JavaScript!</h1>
+    <p id="idCount"></p>
+</body>
+</html>
