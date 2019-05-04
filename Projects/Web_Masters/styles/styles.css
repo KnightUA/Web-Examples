@@ -1,0 +1,111 @@
+/*Reset Options*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*General*/
+
+body {
+    font-family: "Raleway",Raleway, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: block;
+}
+
+/*Typography*/
+
+/*Logotype BEGIN*/
+
+div.logo {
+    display: flex;
+}
+
+div.logo img {
+    height: 50px;
+}
+
+div.logo div.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0 8px;
+}
+
+div.logo-text p:first-child {
+    font-size: 26.5px;
+}
+
+/*Logotype END*/
+
+/*Header BEGIN*/
+
+header {
+    background: #e9d401;
+}
+
+header div.container{
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.menu {
+    height: inherit;
+    width: 710px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.menu li{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+nav.menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-family: "Raleway SemiBold", Raleway, sans-serif;
+    font-size: 16px;
+}
+
+nav.menu li a:hover {
+    background: #c9bb12;
+}
+
+li#profile a{
+    background: black;
+    padding: 7px 0;
+}
+
+li#profile a:hover{
+    background: #1d1d1d;
+}
+
+li#profile img{
+    height: 50px;
+}
+
+/*Header END*/
