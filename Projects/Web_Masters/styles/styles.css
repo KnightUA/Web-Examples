@@ -96,12 +96,12 @@ nav.menu li a:hover {
 }
 
 li#profile a{
-    background: black;
+    background: #1e242b;
     padding: 7px 0;
 }
 
 li#profile a:hover{
-    background: #1d1d1d;
+    background: #4c636c;
 }
 
 li#profile img{
@@ -109,3 +109,64 @@ li#profile img{
 }
 
 /*Header END*/
+
+/*Slider BEGIN*/
+
+div.slider {
+    background: #e9d401;
+    height: 484px;
+    color: #1e242b;
+}
+
+div.slider h1{
+    font-size: 56px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.slider p{
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.slider div.container {
+    height: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.container div.image-slider {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container #down-arrow{
+    height: 82px;
+    width: 82px;
+    background: #e9d401;
+    border-radius: 41px;
+    position: absolute;
+    left: 50%;
+    margin-left: -41px;
+    bottom: -41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#down-arrow img{
+    height: 32px;
+    width: 58px;
+}
+
+a#down-arrow:hover {
+    background: #c9bb12;
+}
+
+/*Slider END*/
